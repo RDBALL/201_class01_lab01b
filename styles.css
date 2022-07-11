@@ -1,0 +1,25 @@
+
+body {
+    background: rgb(36,11,0);
+    background: linear-gradient(215deg, rgba(36,11,0,.3) 0%, rgba(9,9,121,.6) 46%, rgba(0,212,255,.8) 100%);
+    background-repeat: no-repeat; 
+}
+
+h1 {
+    font-size: 2.5em;
+    border-radius: 25px;
+    width: 20vw;
+    text-align: center;
+}
+
+p {
+    border-radius: 25px;
+    width: 20vw;
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p:hover {
+    box-shadow: 0 0 10px 10px rgba(218, 65, 96, 0.4), 0 0 10px 10px rgba(236, 26, 68, 0.7);
+}
